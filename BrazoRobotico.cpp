@@ -21,10 +21,10 @@ BrazoRobotico::BrazoRobotico(double x, double y, double z,bool sujeto){
             return sujeto;
     }
     void BrazoRobotico::coger(){
-            sujecion=true;
+            sujeto=true;
     }
     void BrazoRobotico::soltar(){
-            sujecion=false;
+            sujeto=false;
     }
     void BrazoRobotico::mover(double x1, double y1, double z1){
             x += x1;
